@@ -1,4 +1,4 @@
-package com.JavaProject.Mimikyu_project.Model;
+package com.JavaProject.CyberHunter.Model;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.JavaProject.Mimikyu_project;
+package com.JavaProject.CyberHunter;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

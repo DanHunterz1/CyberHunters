@@ -1,4 +1,4 @@
-package com.JavaProject.Mimikyu_project.Controller;
+package com.JavaProject.CyberHunter.Controller;
 
 import java.util.List;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.JavaProject.Mimikyu_project.Model.Usuario;
-import com.JavaProject.Mimikyu_project.Model.UsuarioService;
+import com.JavaProject.CyberHunter.Model.Usuario;
+import com.JavaProject.CyberHunter.Model.UsuarioService;
 
 @Controller
 public class UsuarioController {

@@ -1,4 +1,4 @@
-package com.JavaProject.Mimikyu_project.Model;
+package com.JavaProject.CyberHunter.Model;
 
 //POJO - Plain Old Java Object
 public class Usuario {
