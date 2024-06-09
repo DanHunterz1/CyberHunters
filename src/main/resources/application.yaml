@@ -1,0 +1,22 @@
+server:
+    port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-cpj2gj4f7o1s73bp5tkg-a.oregon-postgres.render.com:5432/cyberhunter
+    username: cyberhunter_user
+    password: YtRMURVQ9r4dQggsNF8l6C7XY9VpSJFO
+    driver-class-name: org.postgresql.Driver
+    initialize: true
+
+
+    jpa: 
+        hibernate:
+            ddl-auto: create-drop
+            generate-ddl: true
+
+    sql:
+        init:
+            schema-locations: classpath:/schema-postgresql.sql
+            mode: always
+            platform: postgres

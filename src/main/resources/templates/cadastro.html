@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutamento CyberHunters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body class="cadastro">
+    <img src="" alt="">
+    <header>
+        <div>
+        <h1 class="titulo"> <a class="" href="/">CyberHunters</a></h1>
+    </header>
+    <main>
+        <div class="recrutamento">
+            <h1 class="titulo">Chamada de Recrutamento para <span>CyberHunters</span></h1>
+            <div>
+            <p>
+                Se você está pronto para se unir à revolução digital e fazer parte da luta contra a tirania cibernética, preencha o formulario para estar no time CyberHunters.<br>
+                Estamos prontos para realizar uma nova revolução tecnologica que dará liberdade total a nossa sociedade.
+            </div>
+        </div>
+    </section><!--portifolio-->
+
+    <section class="formulario">
+        <div class="interface">
+            <h2 class="titulo">Entre para <span>CyberHunters</span></h2> 
+
+            <form action="#" th:action="@{/cadastrar}" method="post" th:object="${usuario}">
+                <div class="form-in">
+                    <label for="email">Email: <span>*</span></label>
+                    <input th:field="*{email}" id="email" type="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="form-in">
+                    <label for="nome">Nome: <span>*</span></label>
+                    <input th:field="*{nome}" id="nome" type="text" placeholder="Seu nome" required>
+                </div>
+                <div class="form-in">
+                    <label for="sobre">Hackername:</label>
+                    <input th:field="*{sobren}" id="sobre" type="text" placeholder="Seu Hackername" required>
+                </div>
+                <div class="Dan-Contato">
+                    <button type="submit" value="Cadastrar">Confirmar</button>
+                </div>
+            </form>
+    </section><!--formulario-->
+        <h1 class="titulo">CyberHunters</h1>
+        
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="imagens/Logo.png" alt="logo" id="logo2">
+                    </div>
+                    <div class="social">
+                        <a href="" ><button><i class="bi bi-instagram"></i></button></i></a>
+                        <a href=""><button><i class="bi bi-whatsapp"></i></button></i></a>
+                        <a href=""><button><i class="bi bi-youtube"></i></button></i></a>
+                    </div>
+                    </div>
+                </div><!--line-footer-->
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope"></i> <a href="mailto:contato@DanHunter.z.1">contato@DanHunter.z.1</a></p>
+            </div><!--line-footer-->
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atualização de CyberRecruta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
+</head>
+<body class="cadastro3">
+    <form action="#" th:action="@{'/atualizar/' + ${id}}" method=post th:object="${usuario}">
+    	Nome: <input type="text" th:field="*{nome}"><br>
+    	HACKERNAME: <input type="text" th:field="*{sobren}"><br>
+		E-mail: <input type="text" th:field="*{email}">
+    	<input type="submit" value="Editar">
+    </form>
+</body>
+</html>
